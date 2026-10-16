@@ -21,8 +21,14 @@ Run `three_run_r3_factorized_credit/r3_1x8`.
 | --- | --- |
 | `r3_1x8_ep0005.ckpt` | epoch 5 |
 | `r3_1x8_ep0010.ckpt` | epoch 10 |
+| `r3_ep0005_navtest_v2.csv` | epoch 5 navtest scores |
+| `r3_ep0005_navhard.csv` | epoch 5 navhard scores |
+| `r3_ep0005_metrics.txt` | epoch 5 summary |
 | `r3_ep0010_navtest_v2.csv` | epoch 10 navtest scores |
 | `r3_ep0010_navhard.csv` | epoch 10 navhard scores |
 | `r3_ep0010_metrics.txt` | epoch 10 summary |
 
-Epoch 10 navtest average score: 0.872611 (12146 scenarios). Epoch 10 navhard extended PDM score: 0.426486 (5912 scenarios).
+| epoch | navtest | navhard extended PDM |
+| --- | --- | --- |
+| 5 | 0.866309 | 0.450689 |
+| 10 | 0.872611 | 0.426486 |
